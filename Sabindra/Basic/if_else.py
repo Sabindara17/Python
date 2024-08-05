@@ -17,11 +17,11 @@
 # else:
 #     print("Allowed")
 
-a = int(input("Enter the value of a: "))
-b = int(input("Enter the value of b: "))
-operator = input("Enter the operator: ")
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
+operator = input("Enter the operator(+, -, *, /): ")
 
-def calculator(a, b):
+def calculator(a, b, operator):
     if operator == "+":
         return a + b
     elif operator == "-":
@@ -32,9 +32,14 @@ def calculator(a, b):
         return a / b
     else:
         return "error"
+    
+result = calculator(a, b, operator)
+print(result) 
+    
 
 
-print(calculator)
+
+
 
 
 
