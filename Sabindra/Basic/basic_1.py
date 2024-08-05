@@ -32,8 +32,14 @@ sabindra nath shrestha
 # num2 = int(input("Number two:"))
 # print("sum = ", num1 + num2)
 
+#decimal number length define
 print(round(6.343435765765, 0))
+
 print(int(6.222))
-print(35//5)
+
+#decimal number not show
+print(35//6)
+
+#power
 print(2**3)
 
