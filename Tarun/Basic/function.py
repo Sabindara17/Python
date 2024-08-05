@@ -41,4 +41,4 @@ age = True
 if 1 == age == 0:
     print("Not Allowed")
 else:
-    print("Allowed")
+    print("Allowed.")
