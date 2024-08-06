@@ -34,7 +34,7 @@ def calculator(a, b, operator):
         return "error"
     
 result = calculator(a, b, operator)
-print(result) 
+print(round(result,2)) 
     
 
 
