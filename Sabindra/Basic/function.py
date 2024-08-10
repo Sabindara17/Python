@@ -26,10 +26,10 @@ def divide(num1, num2):
 print(divide(4,2))
 
 
-def mero_data(name, age, address):
+def my_data(name, age, address):
     return f"Hello my name is {name}. I am {age} years old. I am from {address}."
 
-print(mero_data("Sabindra Nath Shrestha", 23, "Sankhu"))
+print(my_data("Sabindra Shrestha", 23, "Sankhu"))
 
 
 
