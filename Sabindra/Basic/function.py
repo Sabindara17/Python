@@ -6,7 +6,7 @@ print(add(2,2))
 #plus = lambda num1, num2: num1 + num2
 
 #print(plus(4,4))
-
+a = lambda a, b: a + b
 
 def sub(num1, num2=0):
     return num1 - num2
